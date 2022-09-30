@@ -4,4 +4,37 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+
+  <servlet>
+    <servlet-name>Request Handler</servlet-name>
+    <servlet-class>com.coditas.controller.RequestHandler</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Request Handler</servlet-name>
+    <url-pattern>"addMarks"</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Request Handler</servlet-name>
+    <url-pattern>"addSubject"</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Request Handler</servlet-name>
+    <url-pattern>"addStudent"</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Request Handler</servlet-name>
+    <url-pattern>"displayStudent"</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+
+
+
 </web-app>

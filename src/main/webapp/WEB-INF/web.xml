@@ -13,17 +13,17 @@
 
   <servlet-mapping>
     <servlet-name>Request Handler</servlet-name>
-    <url-pattern>"/addMarks"</url-pattern>
+    <url-pattern>/addMarks</url-pattern>
   </servlet-mapping>
 
   <servlet-mapping>
     <servlet-name>Request Handler</servlet-name>
-    <url-pattern>"/addSubject"</url-pattern>
+    <url-pattern>/addSubject</url-pattern>
   </servlet-mapping>
 
   <servlet-mapping>
     <servlet-name>Request Handler</servlet-name>
-    <url-pattern>"/addStudent"</url-pattern>
+    <url-pattern>/addStudent</url-pattern>
   </servlet-mapping>
 
   <servlet-mapping>
